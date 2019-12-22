@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
     package="xyz.intellij.player">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -26,8 +25,6 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".EnrollActivity" />
         <activity android:name=".HelloActivity">
-=======
->>>>>>> origin/master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
