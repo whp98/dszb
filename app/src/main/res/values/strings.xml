@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">正能量视频</string>
+    <string name="tip_account">邮箱</string>
+    <string name="tip_password">密码</string>
+    <string name="signin">登录</string>
+    <string name="forget_pass">忘记密码</string>
+    <string name="enroll">注册</string>
+    <string name="streamname">直播名</string>
+    <string name="streamqrate">质量评分</string>
+    <string name="streamcrate">内容评分</string>
+    <string name="qualityRate">质量评分</string>
+    <string name="contentRate">内容评分</string>
+    <string name="playfullscreen">全屏播放</string>
+    <string name="stream_describe">描述</string>
+    <string name="nikename">昵称</string>
+    <string name="enrolling">请填写以下信息</string>
+    <string name="reg_title">注册</string>
+    <string name="logining">请输入用户名和密码</string>
+    <string name="sendstream">提交视频</string>
+    <string name="newstream">新的视频</string>
+    <string name="addStream">添加视频</string>
+    <string name="new_stream_hint_name">视频流名字</string>
+    <string name="new_stream_uri_hint">视频流地址</string>
+    <string name="new_stream_content_hint">介绍一下你的视频内容</string>
+</resources>

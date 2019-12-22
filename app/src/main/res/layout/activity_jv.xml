@@ -1,0 +1,79 @@
+<ScrollView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:id="@+id/player_view_a">
+            <xyz.intellij.player.MyJZVD.MyJzvdStd
+                android:id="@+id/jz_video"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </LinearLayout>
+        <!--   介绍和评分-->
+        <LinearLayout
+            android:id="@+id/describe_lay"
+            android:layout_below="@+id/player_view_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textDescribe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stream_describe" />
+        </LinearLayout>
+        <!--    质量评分-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratebarC"
+            android:layout_below="@+id/describe_lay">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qualityRate">
+            </TextView>
+            <RatingBar
+                android:id="@+id/ratingBarQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:numStars="5"
+                android:stepSize="1"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+        <!--    内容评分-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contentrate_lay"
+            android:layout_below="@+id/ratebarC">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contentRate">
+            </TextView>
+            <RatingBar
+                android:id="@+id/ratingBarC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:numStars="5"
+                android:stepSize="1"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

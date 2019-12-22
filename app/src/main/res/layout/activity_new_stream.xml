@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="xyz.intellij.player.NewStreamActivity">
+
+        <EditText
+            android:id="@+id/newstream_name"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:background="@drawable/round_edittext"
+            android:gravity="center"
+            android:hint="@string/new_stream_hint_name"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/newstream_uri"
+            android:layout_width="398dp"
+            android:layout_height="96dp"
+            android:layout_below="@id/newstream_name"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/round_edittext"
+            android:gravity="center"
+            android:hint="@string/new_stream_uri_hint"
+            android:inputType="textUri"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/newstream_interduce"
+            android:layout_width="395dp"
+            android:layout_height="184dp"
+            android:layout_below="@id/newstream_uri"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/round_edittext"
+            android:gravity="center"
+            android:hint="@string/new_stream_content_hint"
+            android:inputType="textUri"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/newstream_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newstream_interduce"
+            android:layout_marginTop="42dp"
+            android:background="@color/colorGreen"
+            android:text="@string/sendstream"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</ScrollView>
+
